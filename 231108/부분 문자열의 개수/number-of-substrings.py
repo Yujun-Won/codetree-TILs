@@ -1,4 +1,6 @@
-A = input()
-B = input()
+text = input()
+substring = input()
 
-print(A.count(B))
+count = text.count(substring)
+
+print(count)
