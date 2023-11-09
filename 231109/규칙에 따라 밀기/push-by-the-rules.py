@@ -1,15 +1,13 @@
-string = input()
-cmd = input()
+A = input()
+commands = input()
 
-L, R = cmd.count('L'), cmd.count('R')
+def shift_string(A, direction):
+    if direction == 'L':
+        return A[1:] + A[0]
+    elif direction == 'R':
+        return A[-1] + A[:-1]
 
+for command in commands:
+    A = shift_string(A, command)
 
-# L에 대한 반영
-stepL = ''
-stepL = string[L:len(string)] + string[:4]
-
-# R에 대한 반영
-stepR = ''
-stepR = stepL[-R::] + stepL[:len(stepL)-R]
-
-print(stepR)
+print(A)
