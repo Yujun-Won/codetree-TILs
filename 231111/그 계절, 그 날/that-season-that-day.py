@@ -9,9 +9,9 @@ def is_leapyear(y):
 # 날짜가 존재하는지 판단하는 함수
 def is_exist(y, m, d):
     # 1. 30일 또는 31일까지 있는 월
-    if m in (1, 3, 5, 8, 10, 12):
+    if m in (1, 3, 5, 7, 8, 10, 12):
         day_limit = 31
-    elif m in (4, 6, 7, 9, 11):
+    elif m in (4, 6, 9, 11):
         day_limit = 30
     
     # 2. 2월의 경우 (윤년 True or False)
