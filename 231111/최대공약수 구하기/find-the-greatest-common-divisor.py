@@ -1,10 +1,13 @@
+def find_gcd(n, m):
+    gcd = 0
+
+    for i in range(1, min(n, m) + 1):
+        if n % i == 0 and m % i == 0:
+            gcd = i
+
+    return gcd
+
+
 n, m = map(int, input().split())
 
-n_divisors = [i for i in range(1, n+1) if n % i == 0]
-
-max_val = 0
-for div in n_divisors:
-    if m % div == 0 and m > max_val:
-        max_val = div
-
-print(max_val)
+print(find_gcd(n, m))
