@@ -27,4 +27,4 @@ def branch(n, m, o):
 
 a, o, c = input().split()
 
-print(f"{a} {o} {c} = {branch(a, c, o)}")
+print(f"{a} {o} {c} = {branch(a, c, o)}" if o in ('+', '-', '*', '/') else False)
