@@ -1,4 +1,7 @@
-def isPrime(n):
+def is_prime(n):
+    if n == 1:
+        return False
+        
     for i in range(2, n):
         if n % i == 0:
             return False
@@ -10,7 +13,7 @@ a, b = map(int, input().split())
 
 total_sum = 0
 for i in range(a, b+1):
-    if isPrime(i):
+    if is_prime(i):
         total_sum += i
 
 print(total_sum)
