@@ -1,6 +1,6 @@
 def is_prime(num):              # 소수 판별 함수
-    for i in range(2, n):
-        if n % i == 0:
+    for i in range(2, num):
+        if num % i == 0:
             return False
     
     return True
@@ -9,5 +9,16 @@ def is_prime(num):              # 소수 판별 함수
 def judge_num(a, b):
     cnt = 0
     for i in range(a, b+1):
-        print(len(str(i)))
-        # if is_prime(i):         # 소수
+        if is_prime(i):         # 소수일 경우
+            # 1. 한 자리 수
+            if len(str(i)) == 1 and i % 2 == 0:
+                cnt += 1
+            # 2. 두 자리 수
+            elif len(str(i)) == 2 and (i // 10 + i % 10) % 2 == 0:
+                cnt += 1
+    
+    return cnt
+
+
+a, b = map(int, input().split())
+print(judge_num(a, b))
