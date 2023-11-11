@@ -3,7 +3,7 @@ def isPrime(n):
         if n % i == 0:
             return False
     
-    return n
+    return True
 
 
 a, b = map(int, input().split())
