@@ -1,8 +1,9 @@
 # 윤년을 판단하는 함수
 def is_leapyear(y):
-    if y % 4 == 0 or (y % 100 == 0 and y % 400 == 0):
+    if y % 4 == 0 and y % 100 != 0:
         return True
-    
+    if y % 4 == 0 and y % 100 == 0 and y % 400 == 0:
+        return True
     return False
 
 # 날짜가 존재하는지 판단하는 함수
