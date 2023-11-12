@@ -1,20 +1,19 @@
-#                  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12.
-num_of_days = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+def num_of_days(m, d):
+    # 계산 편의를 위해 월마다 몇 일이 있는지를 적어줍니다. 
+    days = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    total_days = 0
+    
+    # 1월부터 (m - 1)월 까지는 전부 꽉 채워져 있습니다.
+    for i in range(1, m):
+        total_days += days[i]
+    
+    # m월의 경우에는 정확이 d일만 있습니다.
+    total_days += d
+    
+    return total_days
+
 
 m1, d1, m2, d2 = map(int, input().split())
 
-elapsed_days = 0
-
-
-while True:
-    if m1 == m2 and d1 == d2:
-        break
-
-    elapsed_days += 1
-    d1 += 1
-
-    if d1 > num_of_days[m1]:
-        m1 += 1
-        d1 = 1
-
-print(elapsed_days + 1)
+total_days = num_of_days(m2, d2) - num_of_days(m1, d1) + 1
+print(total_days)
