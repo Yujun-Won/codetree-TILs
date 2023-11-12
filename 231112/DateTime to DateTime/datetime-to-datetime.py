@@ -7,7 +7,8 @@ m = c - 11
 
 mins = d * 1440 + h * 60 + m
 
-
+if a == 11 and h <= 11 and m <= 11:
+    mins = -1
 
 
 
