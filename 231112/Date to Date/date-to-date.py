@@ -1,13 +1,13 @@
 def num_of_days(m, d):
-    # 계산 편의를 위해 월마다 몇 일이 있는지를 적어줍니다. 
+    #           1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12.
     days = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     total_days = 0
     
-    # 1월부터 (m - 1)월 까지는 전부 꽉 채워져 있습니다.
+    # 1월부터 (m-1)월까지의 전체 일수를 count
     for i in range(1, m):
         total_days += days[i]
     
-    # m월의 경우에는 정확이 d일만 있습니다.
+    # m월은 d일만 count
     total_days += d
     
     return total_days
