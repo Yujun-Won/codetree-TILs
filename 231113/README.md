@@ -8,10 +8,16 @@
 
 |총 문제수|획득 경험치|연속 학습|
 |---:|---:|---|
-1|100xp|6일째🔥|
+7|100xp|6일째🔥|
 
 |교재|이름|난이도|상태|최근 제출 코드|
 |---|---|:---:|:---:|---|
+|[Novice Mid / 케이스별로 나누기 / 겹치는 경우](https://www.codetree.ai/missions?missionId=5)|[[개념]두 직사각형](https://www.codetree.ai/missions/5/problems/two-rectangles)|![보통][medium]|![Passed][passed]|[링크](https://github.com/Yujun-Won/codetree-TILs/blob/main/231113/%EB%91%90%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95/two-rectangles.py)|
+|[Novice Mid / 케이스별로 나누기 / 겹치는 경우](https://www.codetree.ai/missions?missionId=5)|[[연습]구역 청소](https://www.codetree.ai/missions/5/problems/district-cleaning)|![쉬움][easy]|![Failed][failed]|[링크](https://github.com/Yujun-Won/codetree-TILs/blob/main/231113/%EA%B5%AC%EC%97%AD%20%EC%B2%AD%EC%86%8C/district-cleaning.py)|
+|[Novice Mid / 정렬 / 일반 정렬](https://www.codetree.ai/missions?missionId=5)|[[개념]오름 내림차순 정렬](https://www.codetree.ai/missions/5/problems/inc-dec-sorting)|![쉬움][easy]|![Passed][passed]|[링크](https://github.com/Yujun-Won/codetree-TILs/blob/main/231113/%EC%98%A4%EB%A6%84%20%EB%82%B4%EB%A6%BC%EC%B0%A8%EC%88%9C%20%EC%A0%95%EB%A0%AC/inc-dec-sorting.py)|
+|[Novice Mid / 정렬 / 일반 정렬](https://www.codetree.ai/missions?missionId=5)|[[개념]문자열 정렬](https://www.codetree.ai/missions/5/problems/string-sort)|![쉬움][easy]|![Passed][passed]|[링크](https://github.com/Yujun-Won/codetree-TILs/blob/main/231113/%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%A0%95%EB%A0%AC/string-sort.py)|
+|[Novice Mid / 정렬 / 일반 정렬](https://www.codetree.ai/missions?missionId=5)|[[개념]단어 정렬](https://www.codetree.ai/missions/5/problems/sorting-words)|![쉬움][easy]|![Passed][passed]|[링크](https://github.com/Yujun-Won/codetree-TILs/blob/main/231113/%EB%8B%A8%EC%96%B4%20%EC%A0%95%EB%A0%AC/sorting-words.py)|
+|[Novice Mid / 정렬 / 일반 정렬](https://www.codetree.ai/missions?missionId=5)|[[연습]Top K 숫자 구하기](https://www.codetree.ai/missions/5/problems/kth-number)|![쉬움][easy]|![Passed][passed]|[링크](https://github.com/Yujun-Won/codetree-TILs/blob/main/231113/Top%20K%20%EC%88%AB%EC%9E%90%20%EA%B5%AC%ED%95%98%EA%B8%B0/kth-number.py)|
 |[Novice Mid / 정렬 / 일반 정렬](https://www.codetree.ai/missions?missionId=5)|[[연습]두 개의 동일한 수열](https://www.codetree.ai/missions/5/problems/two-equal-series)|![보통][medium]|![Passed][passed]|[링크](https://github.com/Yujun-Won/codetree-TILs/blob/main/231113/%EB%91%90%20%EA%B0%9C%EC%9D%98%20%EB%8F%99%EC%9D%BC%ED%95%9C%20%EC%88%98%EC%97%B4/two-equal-series.py)|
 
 
