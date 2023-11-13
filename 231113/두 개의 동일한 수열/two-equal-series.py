@@ -1,14 +1,12 @@
 n = int(input())
-
 A = list(map(int, input().split()))
 B = list(map(int, input().split()))
 
-A = sorted(A)
-B = sorted(B)
+A.sort()
+B.sort()
 
 flag = True
-for num in zip(A, B):
-    a, b = num
+for a, b in zip(A, B):
     if a != b:
         flag = False
 
