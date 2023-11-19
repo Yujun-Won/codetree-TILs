@@ -8,4 +8,4 @@ def print_helloworld(n):
 
 n = int(input())
 
-print_helloworld(4)
+print_helloworld(n)
